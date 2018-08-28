@@ -22,7 +22,7 @@ myButton.addEventListener('click', (e) => {
             }
         }
     }
-    request.open('GET', '/xxx') //配置
+    request.open('GET', 'http://jack.com:8002/xxx') //配置
     request.send()
 
     // console.log(request.readyState)
